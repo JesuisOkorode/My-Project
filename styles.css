@@ -1094,7 +1094,7 @@ li {
   font-weight: 800;
 }
 
-.nineth-section p {
+.nineth-section .reach-more {
   font-size: 14px;
   margin: 0 auto;
   width: 40%;
@@ -1107,6 +1107,7 @@ li {
   margin: 0 auto;
   width: 30%;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .save-monthly .one {
@@ -1132,4 +1133,105 @@ li {
   padding: 10px;
   font-size: 12px;
   border-radius: 4px;
+}
+
+/* nineth section subscription styling */
+
+.subscription {
+margin: 0 auto;
+width: 80%;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(15px, 1fr));
+gap: 10px;
+}
+
+
+.start-with {
+  text-align: center;
+  display: none;
+  font-size: 10px;
+  padding: 5px;
+  background-color: #06F;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+  
+}
+
+.subscriptions {
+border-radius: 0 0 10px 10px;
+border: 1.115px solid var(--border, #D6DAE4);
+background-color: #fff;
+display: grid;
+padding: 20px;
+}
+
+.subscriptions h4 {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.subscriptions .dol {
+  font-size: 10px;
+  padding-bottom: 20px;
+} 
+
+.dol span {
+  font-size: 25px;
+  font-weight: 520;
+}
+
+.subscriptions a {
+border-radius: 3px;
+border: 2px solid #06F;
+padding: 6px;
+text-decoration: none;
+color: #06F;
+text-align: center;
+font-size: 12px;
+font-weight: 550;
+margin-bottom: 20px;
+}
+
+  
+.plans {
+  display: flex;
+  gap: 5px;
+  line-height: 20px;
+}
+
+.plans img {
+width: 10px;
+align-items: first baseline;
+}
+
+.plans p {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.plans .IO-IG {
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.Unlimited-story {
+color: #9CA0AC;
+text-decoration-line: line-through;
+}
+
+:hover.subscriptions {
+  border: 5px solid #06F;
+  transition: 0.5s;
+  }
+
+  .most-business:hover .start-with {
+    border: 5px solid #06F;
+    transition: 0.5s;
+    display: block;
+  }
+
+:hover.a-button {
+  background-color: #06F;
+  transition: 0.5s;
+  color: #fff;
 }
